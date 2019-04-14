@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8E9581422633F3800CF9510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9581322633F3800CF9510 /* AppDelegate.swift */; };
+		B8E9581622633F3800CF9510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9581522633F3800CF9510 /* ViewController.swift */; };
+		B8E9581922633F3800CF9510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E9581722633F3800CF9510 /* Main.storyboard */; };
+		B8E9581B22633F3900CF9510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E9581A22633F3900CF9510 /* Assets.xcassets */; };
+		B8E9581E22633F3900CF9510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E9581C22633F3900CF9510 /* LaunchScreen.storyboard */; };
+		B8E9582922633F3900CF9510 /* Shafeer_Meditation_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9582822633F3900CF9510 /* Shafeer_Meditation_AppTests.swift */; };
+		B8E9583422633F3900CF9510 /* Shafeer_Meditation_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9583322633F3900CF9510 /* Shafeer_Meditation_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8E9582522633F3900CF9510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E9580822633F3800CF9510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E9580F22633F3800CF9510;
+			remoteInfo = "Shafeer Meditation App";
+		};
+		B8E9583022633F3900CF9510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E9580822633F3800CF9510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E9580F22633F3800CF9510;
+			remoteInfo = "Shafeer Meditation App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8E9581022633F3800CF9510 /* Shafeer Meditation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shafeer Meditation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E9581322633F3800CF9510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8E9581522633F3800CF9510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8E9581822633F3800CF9510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8E9581A22633F3900CF9510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8E9581D22633F3900CF9510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8E9581F22633F3900CF9510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E9582422633F3900CF9510 /* Shafeer Meditation AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shafeer Meditation AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E9582822633F3900CF9510 /* Shafeer_Meditation_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shafeer_Meditation_AppTests.swift; sourceTree = "<group>"; };
+		B8E9582A22633F3900CF9510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E9582F22633F3900CF9510 /* Shafeer Meditation AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shafeer Meditation AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E9583322633F3900CF9510 /* Shafeer_Meditation_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shafeer_Meditation_AppUITests.swift; sourceTree = "<group>"; };
+		B8E9583522633F3900CF9510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8E9580D22633F3800CF9510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E9582122633F3900CF9510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E9582C22633F3900CF9510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8E9580722633F3800CF9510 = {
+			isa = PBXGroup;
+			children = (
+				B8E9581222633F3800CF9510 /* Shafeer Meditation App */,
+				B8E9582722633F3900CF9510 /* Shafeer Meditation AppTests */,
+				B8E9583222633F3900CF9510 /* Shafeer Meditation AppUITests */,
+				B8E9581122633F3800CF9510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E9581122633F3800CF9510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E9581022633F3800CF9510 /* Shafeer Meditation App.app */,
+				B8E9582422633F3900CF9510 /* Shafeer Meditation AppTests.xctest */,
+				B8E9582F22633F3900CF9510 /* Shafeer Meditation AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8E9581222633F3800CF9510 /* Shafeer Meditation App */ = {
+			isa = PBXGroup;
+			children = (
+				B8E9581322633F3800CF9510 /* AppDelegate.swift */,
+				B8E9581522633F3800CF9510 /* ViewController.swift */,
+				B8E9581722633F3800CF9510 /* Main.storyboard */,
+				B8E9581A22633F3900CF9510 /* Assets.xcassets */,
+				B8E9581C22633F3900CF9510 /* LaunchScreen.storyboard */,
+				B8E9581F22633F3900CF9510 /* Info.plist */,
+			);
+			path = "Shafeer Meditation App";
+			sourceTree = "<group>";
+		};
+		B8E9582722633F3900CF9510 /* Shafeer Meditation AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E9582822633F3900CF9510 /* Shafeer_Meditation_AppTests.swift */,
+				B8E9582A22633F3900CF9510 /* Info.plist */,
+			);
+			path = "Shafeer Meditation AppTests";
+			sourceTree = "<group>";
+		};
+		B8E9583222633F3900CF9510 /* Shafeer Meditation AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E9583322633F3900CF9510 /* Shafeer_Meditation_AppUITests.swift */,
+				B8E9583522633F3900CF9510 /* Info.plist */,
+			);
+			path = "Shafeer Meditation AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8E9580F22633F3800CF9510 /* Shafeer Meditation App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E9583822633F3900CF9510 /* Build configuration list for PBXNativeTarget "Shafeer Meditation App" */;
+			buildPhases = (
+				B8E9580C22633F3800CF9510 /* Sources */,
+				B8E9580D22633F3800CF9510 /* Frameworks */,
+				B8E9580E22633F3800CF9510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shafeer Meditation App";
+			productName = "Shafeer Meditation App";
+			productReference = B8E9581022633F3800CF9510 /* Shafeer Meditation App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8E9582322633F3900CF9510 /* Shafeer Meditation AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E9583B22633F3900CF9510 /* Build configuration list for PBXNativeTarget "Shafeer Meditation AppTests" */;
+			buildPhases = (
+				B8E9582022633F3900CF9510 /* Sources */,
+				B8E9582122633F3900CF9510 /* Frameworks */,
+				B8E9582222633F3900CF9510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E9582622633F3900CF9510 /* PBXTargetDependency */,
+			);
+			name = "Shafeer Meditation AppTests";
+			productName = "Shafeer Meditation AppTests";
+			productReference = B8E9582422633F3900CF9510 /* Shafeer Meditation AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8E9582E22633F3900CF9510 /* Shafeer Meditation AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E9583E22633F3900CF9510 /* Build configuration list for PBXNativeTarget "Shafeer Meditation AppUITests" */;
+			buildPhases = (
+				B8E9582B22633F3900CF9510 /* Sources */,
+				B8E9582C22633F3900CF9510 /* Frameworks */,
+				B8E9582D22633F3900CF9510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E9583122633F3900CF9510 /* PBXTargetDependency */,
+			);
+			name = "Shafeer Meditation AppUITests";
+			productName = "Shafeer Meditation AppUITests";
+			productReference = B8E9582F22633F3900CF9510 /* Shafeer Meditation AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8E9580822633F3800CF9510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Shafeer Puthalan";
+				TargetAttributes = {
+					B8E9580F22633F3800CF9510 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B8E9582322633F3900CF9510 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B8E9580F22633F3800CF9510;
+					};
+					B8E9582E22633F3900CF9510 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B8E9580F22633F3800CF9510;
+					};
+				};
+			};
+			buildConfigurationList = B8E9580B22633F3800CF9510 /* Build configuration list for PBXProject "Shafeer Meditation App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8E9580722633F3800CF9510;
+			productRefGroup = B8E9581122633F3800CF9510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E9580F22633F3800CF9510 /* Shafeer Meditation App */,
+				B8E9582322633F3900CF9510 /* Shafeer Meditation AppTests */,
+				B8E9582E22633F3900CF9510 /* Shafeer Meditation AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8E9580E22633F3800CF9510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E9581E22633F3900CF9510 /* LaunchScreen.storyboard in Resources */,
+				B8E9581B22633F3900CF9510 /* Assets.xcassets in Resources */,
+				B8E9581922633F3800CF9510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E9582222633F3900CF9510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E9582D22633F3900CF9510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8E9580C22633F3800CF9510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E9581622633F3800CF9510 /* ViewController.swift in Sources */,
+				B8E9581422633F3800CF9510 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E9582022633F3900CF9510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E9582922633F3900CF9510 /* Shafeer_Meditation_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E9582B22633F3900CF9510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E9583422633F3900CF9510 /* Shafeer_Meditation_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8E9582622633F3900CF9510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E9580F22633F3800CF9510 /* Shafeer Meditation App */;
+			targetProxy = B8E9582522633F3900CF9510 /* PBXContainerItemProxy */;
+		};
+		B8E9583122633F3900CF9510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E9580F22633F3800CF9510 /* Shafeer Meditation App */;
+			targetProxy = B8E9583022633F3900CF9510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8E9581722633F3800CF9510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E9581822633F3800CF9510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8E9581C22633F3900CF9510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E9581D22633F3900CF9510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8E9583622633F3900CF9510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8E9583722633F3900CF9510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8E9583922633F3900CF9510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shafeer Meditation App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shafeer.Shafeer-Meditation-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8E9583A22633F3900CF9510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shafeer Meditation App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shafeer.Shafeer-Meditation-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8E9583C22633F3900CF9510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shafeer Meditation AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shafeer.Shafeer-Meditation-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shafeer Meditation App.app/Shafeer Meditation App";
+			};
+			name = Debug;
+		};
+		B8E9583D22633F3900CF9510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shafeer Meditation AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shafeer.Shafeer-Meditation-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shafeer Meditation App.app/Shafeer Meditation App";
+			};
+			name = Release;
+		};
+		B8E9583F22633F3900CF9510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shafeer Meditation AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shafeer.Shafeer-Meditation-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shafeer Meditation App";
+			};
+			name = Debug;
+		};
+		B8E9584022633F3900CF9510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shafeer Meditation AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shafeer.Shafeer-Meditation-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shafeer Meditation App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8E9580B22633F3800CF9510 /* Build configuration list for PBXProject "Shafeer Meditation App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E9583622633F3900CF9510 /* Debug */,
+				B8E9583722633F3900CF9510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E9583822633F3900CF9510 /* Build configuration list for PBXNativeTarget "Shafeer Meditation App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E9583922633F3900CF9510 /* Debug */,
+				B8E9583A22633F3900CF9510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E9583B22633F3900CF9510 /* Build configuration list for PBXNativeTarget "Shafeer Meditation AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E9583C22633F3900CF9510 /* Debug */,
+				B8E9583D22633F3900CF9510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E9583E22633F3900CF9510 /* Build configuration list for PBXNativeTarget "Shafeer Meditation AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E9583F22633F3900CF9510 /* Debug */,
+				B8E9584022633F3900CF9510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8E9580822633F3800CF9510 /* Project object */;
+}
