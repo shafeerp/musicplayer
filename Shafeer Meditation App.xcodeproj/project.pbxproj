@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92B7ACD90A41BA2FDFFB5322 /* Pods_Shafeer_Meditation_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731B00335E27C100B4A9C4EF /* Pods_Shafeer_Meditation_App.framework */; };
+		AE3A6B62AF15CA9F4D1D82E7 /* Pods_Shafeer_Meditation_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BF7FE56B0A1BC349017F3D /* Pods_Shafeer_Meditation_AppUITests.framework */; };
+		B819D16E2265B37B00A4066F /* destress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B819D16D2265B37B00A4066F /* destress.jpg */; };
+		B819D1732265CCE400A4066F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819D1722265CCE400A4066F /* CardView.swift */; };
+		B819D1752265D4F500A4066F /* MeditationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819D1742265D4F500A4066F /* MeditationCell.swift */; };
+		B819D1772265F91F00A4066F /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819D1762265F91F00A4066F /* MusicController.swift */; };
+		B89ADB5B22634EB100ECE193 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = B89ADB5A22634EB100ECE193 /* loading.json */; };
+		B89ADB5E226352B800ECE193 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B89ADB5D226352B800ECE193 /* GoogleService-Info.plist */; };
+		B89ADB66226370F900ECE193 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89ADB65226370F900ECE193 /* FirebaseManager.swift */; };
+		B89ADB682263804B00ECE193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89ADB672263804B00ECE193 /* Main.storyboard */; };
+		B89ADB6B2263812C00ECE193 /* MeditationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89ADB6A2263812C00ECE193 /* MeditationController.swift */; };
+		B89ADB6E22639B7C00ECE193 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89ADB6D22639B7C00ECE193 /* Defaults.swift */; };
+		B8D8B7FF22648CA8004F82AE /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8B7FE22648CA8004F82AE /* Meditation.swift */; };
+		B8D8B8012264F0F8004F82AE /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8B8002264F0F8004F82AE /* Session.swift */; };
+		B8D8B804226589E1004F82AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8B803226589E1004F82AE /* Constants.swift */; };
 		B8E9581422633F3800CF9510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9581322633F3800CF9510 /* AppDelegate.swift */; };
-		B8E9581622633F3800CF9510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9581522633F3800CF9510 /* ViewController.swift */; };
-		B8E9581922633F3800CF9510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E9581722633F3800CF9510 /* Main.storyboard */; };
+		B8E9581622633F3800CF9510 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9581522633F3800CF9510 /* SplashController.swift */; };
+		B8E9581922633F3800CF9510 /* Startup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E9581722633F3800CF9510 /* Startup.storyboard */; };
 		B8E9581B22633F3900CF9510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E9581A22633F3900CF9510 /* Assets.xcassets */; };
 		B8E9581E22633F3900CF9510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E9581C22633F3900CF9510 /* LaunchScreen.storyboard */; };
 		B8E9582922633F3900CF9510 /* Shafeer_Meditation_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9582822633F3900CF9510 /* Shafeer_Meditation_AppTests.swift */; };
 		B8E9583422633F3900CF9510 /* Shafeer_Meditation_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9583322633F3900CF9510 /* Shafeer_Meditation_AppUITests.swift */; };
+		FB9B31AC18ABE05ADD8DD569 /* Pods_Shafeer_Meditation_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E81CE8BA9D9DBAA7E0DC2F2 /* Pods_Shafeer_Meditation_AppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +50,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10F8F0D265E474DECCEAD7FD /* Pods-Shafeer Meditation App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shafeer Meditation App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shafeer Meditation App/Pods-Shafeer Meditation App.release.xcconfig"; sourceTree = "<group>"; };
+		1E81CE8BA9D9DBAA7E0DC2F2 /* Pods_Shafeer_Meditation_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shafeer_Meditation_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E16780BBC3C3FDA8E03D9E /* Pods-Shafeer Meditation AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shafeer Meditation AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shafeer Meditation AppTests/Pods-Shafeer Meditation AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		59BF7FE56B0A1BC349017F3D /* Pods_Shafeer_Meditation_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shafeer_Meditation_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F6BA013C349258FD73FCC /* Pods-Shafeer Meditation AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shafeer Meditation AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shafeer Meditation AppTests/Pods-Shafeer Meditation AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F65B375226173C154D04E74 /* Pods-Shafeer Meditation AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shafeer Meditation AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shafeer Meditation AppUITests/Pods-Shafeer Meditation AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		731B00335E27C100B4A9C4EF /* Pods_Shafeer_Meditation_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shafeer_Meditation_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4702DB824AD0B383ADBC00 /* Pods-Shafeer Meditation App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shafeer Meditation App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shafeer Meditation App/Pods-Shafeer Meditation App.debug.xcconfig"; sourceTree = "<group>"; };
+		B819D16D2265B37B00A4066F /* destress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = destress.jpg; sourceTree = "<group>"; };
+		B819D1722265CCE400A4066F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B819D1742265D4F500A4066F /* MeditationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCell.swift; sourceTree = "<group>"; };
+		B819D1762265F91F00A4066F /* MusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
+		B89ADB5A22634EB100ECE193 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		B89ADB5D226352B800ECE193 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B89ADB65226370F900ECE193 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		B89ADB672263804B00ECE193 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B89ADB6A2263812C00ECE193 /* MeditationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationController.swift; sourceTree = "<group>"; };
+		B89ADB6D22639B7C00ECE193 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		B8D8B7FE22648CA8004F82AE /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		B8D8B8002264F0F8004F82AE /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		B8D8B803226589E1004F82AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B8E9581022633F3800CF9510 /* Shafeer Meditation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shafeer Meditation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E9581322633F3800CF9510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8E9581522633F3800CF9510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B8E9581822633F3800CF9510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8E9581522633F3800CF9510 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		B8E9581822633F3800CF9510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Startup.storyboard; sourceTree = "<group>"; };
 		B8E9581A22633F3900CF9510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8E9581D22633F3900CF9510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8E9581F22633F3900CF9510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +84,7 @@
 		B8E9582F22633F3900CF9510 /* Shafeer Meditation AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shafeer Meditation AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E9583322633F3900CF9510 /* Shafeer_Meditation_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shafeer_Meditation_AppUITests.swift; sourceTree = "<group>"; };
 		B8E9583522633F3900CF9510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E166B334AAB72024CC46717A /* Pods-Shafeer Meditation AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shafeer Meditation AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shafeer Meditation AppUITests/Pods-Shafeer Meditation AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B7ACD90A41BA2FDFFB5322 /* Pods_Shafeer_Meditation_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9B31AC18ABE05ADD8DD569 /* Pods_Shafeer_Meditation_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3A6B62AF15CA9F4D1D82E7 /* Pods_Shafeer_Meditation_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41793107E7B8CE254E662883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731B00335E27C100B4A9C4EF /* Pods_Shafeer_Meditation_App.framework */,
+				1E81CE8BA9D9DBAA7E0DC2F2 /* Pods_Shafeer_Meditation_AppTests.framework */,
+				59BF7FE56B0A1BC349017F3D /* Pods_Shafeer_Meditation_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		948D3618D49DB3B15A5187B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C4702DB824AD0B383ADBC00 /* Pods-Shafeer Meditation App.debug.xcconfig */,
+				10F8F0D265E474DECCEAD7FD /* Pods-Shafeer Meditation App.release.xcconfig */,
+				644F6BA013C349258FD73FCC /* Pods-Shafeer Meditation AppTests.debug.xcconfig */,
+				31E16780BBC3C3FDA8E03D9E /* Pods-Shafeer Meditation AppTests.release.xcconfig */,
+				E166B334AAB72024CC46717A /* Pods-Shafeer Meditation AppUITests.debug.xcconfig */,
+				6F65B375226173C154D04E74 /* Pods-Shafeer Meditation AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B819D16F2265B5A300A4066F /* Controller Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				B819D1722265CCE400A4066F /* CardView.swift */,
+				B819D1742265D4F500A4066F /* MeditationCell.swift */,
+			);
+			path = "Controller Supporting files";
+			sourceTree = "<group>";
+		};
+		B89ADB5C2263514600ECE193 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B8E9581722633F3800CF9510 /* Startup.storyboard */,
+				B89ADB672263804B00ECE193 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B89ADB5F226353DF00ECE193 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				B8E9581522633F3800CF9510 /* SplashController.swift */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		B89ADB64226370E600ECE193 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B89ADB65226370F900ECE193 /* FirebaseManager.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		B89ADB692263811D00ECE193 /* Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				B89ADB6A2263812C00ECE193 /* MeditationController.swift */,
+				B819D1762265F91F00A4066F /* MusicController.swift */,
+			);
+			path = Meditation;
+			sourceTree = "<group>";
+		};
+		B89ADB6C22639B6D00ECE193 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B89ADB6D22639B7C00ECE193 /* Defaults.swift */,
+				B8D8B7FE22648CA8004F82AE /* Meditation.swift */,
+				B8D8B8002264F0F8004F82AE /* Session.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8D8B802226589D3004F82AE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B8D8B803226589E1004F82AE /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		B8E9580722633F3800CF9510 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +206,8 @@
 				B8E9582722633F3900CF9510 /* Shafeer Meditation AppTests */,
 				B8E9583222633F3900CF9510 /* Shafeer Meditation AppUITests */,
 				B8E9581122633F3800CF9510 /* Products */,
+				948D3618D49DB3B15A5187B8 /* Pods */,
+				41793107E7B8CE254E662883 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +224,18 @@
 		B8E9581222633F3800CF9510 /* Shafeer Meditation App */ = {
 			isa = PBXGroup;
 			children = (
+				B819D16F2265B5A300A4066F /* Controller Supporting files */,
+				B8D8B802226589D3004F82AE /* Util */,
+				B89ADB6C22639B6D00ECE193 /* Model */,
+				B89ADB64226370E600ECE193 /* Firebase */,
+				B89ADB5C2263514600ECE193 /* Storyboards */,
+				B8E95844226349EB00CF9510 /* Controllers */,
+				B8E95841226349BB00CF9510 /* Resources */,
 				B8E9581322633F3800CF9510 /* AppDelegate.swift */,
-				B8E9581522633F3800CF9510 /* ViewController.swift */,
-				B8E9581722633F3800CF9510 /* Main.storyboard */,
 				B8E9581A22633F3900CF9510 /* Assets.xcassets */,
 				B8E9581C22633F3900CF9510 /* LaunchScreen.storyboard */,
 				B8E9581F22633F3900CF9510 /* Info.plist */,
+				B89ADB5D226352B800ECE193 /* GoogleService-Info.plist */,
 			);
 			path = "Shafeer Meditation App";
 			sourceTree = "<group>";
@@ -125,6 +258,24 @@
 			path = "Shafeer Meditation AppUITests";
 			sourceTree = "<group>";
 		};
+		B8E95841226349BB00CF9510 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B819D16D2265B37B00A4066F /* destress.jpg */,
+				B89ADB5A22634EB100ECE193 /* loading.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B8E95844226349EB00CF9510 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B89ADB692263811D00ECE193 /* Meditation */,
+				B89ADB5F226353DF00ECE193 /* Startup */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8E9583822633F3900CF9510 /* Build configuration list for PBXNativeTarget "Shafeer Meditation App" */;
 			buildPhases = (
+				F9D48B40EE5D5D6343E32C8D /* [CP] Check Pods Manifest.lock */,
 				B8E9580C22633F3800CF9510 /* Sources */,
 				B8E9580D22633F3800CF9510 /* Frameworks */,
 				B8E9580E22633F3800CF9510 /* Resources */,
+				1524AA612787F2F5D436223A /* [CP] Embed Pods Frameworks */,
+				0CAF2B1193E59C991CA3E610 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8E9583B22633F3900CF9510 /* Build configuration list for PBXNativeTarget "Shafeer Meditation AppTests" */;
 			buildPhases = (
+				A395DB11E4B09A11AFE0D62C /* [CP] Check Pods Manifest.lock */,
 				B8E9582022633F3900CF9510 /* Sources */,
 				B8E9582122633F3900CF9510 /* Frameworks */,
 				B8E9582222633F3900CF9510 /* Resources */,
@@ -167,6 +322,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8E9583E22633F3900CF9510 /* Build configuration list for PBXNativeTarget "Shafeer Meditation AppUITests" */;
 			buildPhases = (
+				C3263BF76CD85B2C4F7F2BEC /* [CP] Check Pods Manifest.lock */,
 				B8E9582B22633F3900CF9510 /* Sources */,
 				B8E9582C22633F3900CF9510 /* Frameworks */,
 				B8E9582D22633F3900CF9510 /* Resources */,
@@ -230,8 +386,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8E9581E22633F3900CF9510 /* LaunchScreen.storyboard in Resources */,
+				B819D16E2265B37B00A4066F /* destress.jpg in Resources */,
 				B8E9581B22633F3900CF9510 /* Assets.xcassets in Resources */,
-				B8E9581922633F3800CF9510 /* Main.storyboard in Resources */,
+				B8E9581922633F3800CF9510 /* Startup.storyboard in Resources */,
+				B89ADB682263804B00ECE193 /* Main.storyboard in Resources */,
+				B89ADB5B22634EB100ECE193 /* loading.json in Resources */,
+				B89ADB5E226352B800ECE193 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +411,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CAF2B1193E59C991CA3E610 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shafeer Meditation App/Pods-Shafeer Meditation App-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shafeer Meditation App/Pods-Shafeer Meditation App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1524AA612787F2F5D436223A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shafeer Meditation App/Pods-Shafeer Meditation App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shafeer Meditation App/Pods-Shafeer Meditation App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A395DB11E4B09A11AFE0D62C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shafeer Meditation AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3263BF76CD85B2C4F7F2BEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shafeer Meditation AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9D48B40EE5D5D6343E32C8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shafeer Meditation App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8E9580C22633F3800CF9510 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E9581622633F3800CF9510 /* ViewController.swift in Sources */,
+				B8D8B8012264F0F8004F82AE /* Session.swift in Sources */,
+				B89ADB6B2263812C00ECE193 /* MeditationController.swift in Sources */,
+				B89ADB66226370F900ECE193 /* FirebaseManager.swift in Sources */,
+				B819D1732265CCE400A4066F /* CardView.swift in Sources */,
+				B89ADB6E22639B7C00ECE193 /* Defaults.swift in Sources */,
+				B8D8B7FF22648CA8004F82AE /* Meditation.swift in Sources */,
+				B8E9581622633F3800CF9510 /* SplashController.swift in Sources */,
 				B8E9581422633F3800CF9510 /* AppDelegate.swift in Sources */,
+				B8D8B804226589E1004F82AE /* Constants.swift in Sources */,
+				B819D1752265D4F500A4066F /* MeditationCell.swift in Sources */,
+				B819D1772265F91F00A4066F /* MusicController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +611,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B8E9581722633F3800CF9510 /* Main.storyboard */ = {
+		B8E9581722633F3800CF9510 /* Startup.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B8E9581822633F3800CF9510 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Startup.storyboard;
 			sourceTree = "<group>";
 		};
 		B8E9581C22633F3900CF9510 /* LaunchScreen.storyboard */ = {
@@ -430,6 +748,7 @@
 		};
 		B8E9583922633F3900CF9510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4702DB824AD0B383ADBC00 /* Pods-Shafeer Meditation App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,7 +757,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "shafeer.Shafeer-Meditation-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafeer.meditationapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +766,7 @@
 		};
 		B8E9583A22633F3900CF9510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F8F0D265E474DECCEAD7FD /* Pods-Shafeer Meditation App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,7 +775,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "shafeer.Shafeer-Meditation-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafeer.meditationapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +784,7 @@
 		};
 		B8E9583C22633F3900CF9510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644F6BA013C349258FD73FCC /* Pods-Shafeer Meditation AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +805,7 @@
 		};
 		B8E9583D22633F3900CF9510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E16780BBC3C3FDA8E03D9E /* Pods-Shafeer Meditation AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +826,7 @@
 		};
 		B8E9583F22633F3900CF9510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E166B334AAB72024CC46717A /* Pods-Shafeer Meditation AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +846,7 @@
 		};
 		B8E9584022633F3900CF9510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F65B375226173C154D04E74 /* Pods-Shafeer Meditation AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
